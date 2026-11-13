@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WeatherApp</title>
+</head>
+
+<body>
+    <div class="logo-ctn">
+        <img src="weatherapplogo.jpeg" class="logo">
+        <h3>Skycast</h3>
+    </div>
+    <div class="header-ctn">
+        <h1>How's the sky looking today?</h1>
+    </div>
+    <div class="searchbar-ctn">
+        <input type="text" placeholder="Search for a place..." class="searchbar" id="city-input">
+        <button class="search-btn" id="search-btn">Search</button>
+    </div>
+
+    <div class="main-ctn">
+
+        <div class="temp-card">
+            <div class="location-info">
+                <h3 id="city-name"></h3>
+                <p id="date"></p>
+            </div>
+
+            <div class="temp-info">
+                <div class="weather-emoji">
+                    <img id="weather-icon" src="" >
+                    <h1 id="current-temp"></h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="weather-details">
+            <div class="card">
+                <h4 class="sec-card">Feels Like</h4>
+                <p id="feels-like-temp"></p>
+            </div>
+            <div class="card">
+                <h4 class="sec-card">Humidity</h4>
+                <p id="humidity"></p>
+            </div>
+            <div class="card">
+                <h4 class="sec-card">Wind</h4>
+                <p id="wind"></p>
+            </div>
+            <div class="card">
+                <h4 class="sec-card">Precipitation</h4>
+                <p id="rain"></p>
+            </div>
+        </div>
+
+        <div class="forecast-section">
+            <h3>7-Day Forecast</h3>
+            <div class="forecast-ctn">
+                <div class="forecast-card">
+                    <p class="day"></p>
+                    <img class="forecast-icon" src="">
+                    <div class="min-max-temp">
+                        <p class="max-temp"></p>
+                        <p class="min-temp"></p>
+                    </div>
+                </div>
+                <div class="forecast-card">
+                    <p class="day"></p>
+                    <img class="forecast-icon" src="">
+                    <div class="min-max-temp">
+                        <p class="max-temp"></p>
+                        <p class="min-temp"></p>
+                    </div>
+                </div>
+                <div class="forecast-card">
+                    <p class="day"></p>
+                    <img class="forecast-icon" src="">
+                    <div class="min-max-temp">
+                        <p class="max-temp"></p>
+                        <p class="min-temp"></p>
+                    </div>
+                </div>
+                <div class="forecast-card">
+                    <p class="day"></p>
+                    <img class="forecast-icon" src="">
+                    <div class="min-max-temp">
+                        <p class="max-temp"></p>
+                        <p class="min-temp"></p>
+                    </div>
+                </div>
+                <div class="forecast-card">
+                    <p class="day"></p>
+                    <img class="forecast-icon" src="">
+                    <div class="min-max-temp">
+                        <p class="max-temp"></p>
+                        <p class="min-temp"></p>
+                    </div>
+                </div>
+                <div class="forecast-card">
+                    <p class="day"></p>
+                    <img class="forecast-icon" src="">
+                    <div class="min-max-temp">
+                        <p class="max-temp"></p>
+                        <p class="min-temp"></p>
+                    </div>
+                </div>
+                <div class="forecast-card">
+                    <p class="day"></p>
+                    <img class="forecast-icon" src="">
+                    <div class="min-max-temp">
+                        <p class="max-temp"></p>
+                        <p class="min-temp"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
